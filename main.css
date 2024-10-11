@@ -4,3 +4,8 @@
   flex-wrap: wrap;
 
 }
+
+
+.card-header {
+  text-align: center;
+}
