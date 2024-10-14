@@ -11,8 +11,35 @@
   text-align: center;
 }
 
-/* .row1{
-  display: flex;
-  flex-direction: row;
-  flex-flow: row wrap;
-} */
+body {
+  background-color: ##FFFFFF;
+}
+
+.card-footer {
+  background-color: #B2DFDB;
+}
+
+.card-header {
+  background-color: #FFC107;
+}
+
+body {
+  font-family: "Edu AU VIC WA NT Dots", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.imageContainer {
+    position: relative;
+    width: 500px; /* Set the width of your container */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 250px;
+  opacity: 0.9; 
+}
